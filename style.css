@@ -46,13 +46,18 @@ body{
     border-bottom: 2px solid black;
     font-family: 'Times New Roman', Times, serif;
 }
+#result{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
 
 #btn{
     width: 40%;
     padding: 15px;
     font-size: large;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 5px;
     outline: none;
     border: none;
