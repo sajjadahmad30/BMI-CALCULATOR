@@ -3,11 +3,9 @@ function calculateBMI(){
     var weight=document.getElementById("weight").value
     var result = document.getElementById("result")
 
-
     //  BMI Formula
     let bmi = weight / (height / 100 * height / 100)
     let totalBmi = bmi.toFixed(2);
-
 
     // check the totalBmi for a given conditions by using if statement. 
     if(totalBmi < 18.5){
@@ -20,12 +18,11 @@ function calculateBMI(){
         result.textContent = "Obesity Weight : " + totalBmi
     }
 
+
     // handle Empty height and weight by using if statement 
     if (!height || height <= 0 || !weight || weight <= 0) {
         alert("Please enter valid positive numbers for both height and weight.");
+        //and assigned result to empty space
         result.textContent=""
     }
-
-    
-
 }
