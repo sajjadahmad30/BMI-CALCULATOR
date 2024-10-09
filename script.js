@@ -6,5 +6,17 @@ function calculateBMI(){
     //  BMI Formula
     let bmi = weight / (height / 100 * height / 100)
     let totalBmi = bmi.toFixed(2);
-    result.textContent = "Your BMI is :" + totalBmi
+
+
+    // check the totalBmi for a given conditions by using if statement. 
+    if(totalBmi < 18.5){
+        result.textContent = "Under Weight : " + totalBmi
+    }if(totalBmi >= 18.5 && totalBmi  < 24.9){
+        result.textContent = "Normal Weight : " + totalBmi
+    }if(totalBmi >= 25.0 && totalBmi < 29.9){
+        result.textContent = "Over Weight : " + totalBmi
+    }if(totalBmi >= 30){
+        result.textContent = "Obesity Weight : " + totalBmi
+    }
+
 }
