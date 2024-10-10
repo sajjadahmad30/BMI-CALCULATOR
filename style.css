@@ -215,7 +215,7 @@ body{
     
 }
 
-/* for mobile Apps */
+/* For mobile Apps */
 @media (max-width:420px) {
     .container{
         display: block;
