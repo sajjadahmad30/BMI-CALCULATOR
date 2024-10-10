@@ -215,3 +215,47 @@ body{
     
 }
 
+/* for mobile Apps */
+@media (max-width:420px) {
+    .container{
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 20%;
+        text-align: center;
+        width: 45%;
+        padding: 30px 20px;
+    }
+    .container h1{
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight:900;
+    }
+    .container p{
+        margin-top: 10px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 10px;
+        margin-top: 30px;
+    }
+    
+    .container input{
+        width: 80%;
+        margin-top: 10px;
+        padding: 4px;
+        font-size: 1.0rem;
+        font-weight: bold;
+    }
+    #result{
+        font-size:11px;
+        letter-spacing: 1px;
+    }
+    
+    #btn{
+        width: 50%;
+        padding: 8px;
+        font-size: 12px;
+        margin-top: 17px;
+    }
+    
+}
