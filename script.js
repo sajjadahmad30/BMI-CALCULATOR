@@ -10,12 +10,16 @@ function calculateBMI(){
     // check the totalBmi for a given conditions by using if statement. 
     if(totalBmi < 18.5){
         result.textContent = "Under Weight : " + totalBmi
+       
     }if(totalBmi >= 18.5 && totalBmi  < 24.9){
         result.textContent = "Normal Weight : " + totalBmi
+       
     }if(totalBmi >= 25.0 && totalBmi < 29.9){
         result.textContent = "Over Weight : " + totalBmi
+        
     }if(totalBmi >= 30){
         result.textContent = "Obesity Weight : " + totalBmi
+        
     }
 
 
@@ -24,5 +28,11 @@ function calculateBMI(){
         alert("Please enter valid positive numbers for both height and weight.");
         //and assigned result to empty space
         result.textContent=""
+        
     }
+
+  
+        document.getElementById("height").value= '';
+        document.getElementById("weight").value= '';
+    
 }
