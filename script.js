@@ -4,7 +4,7 @@ function calculateBMI(){
     var result = document.getElementById("result")
 
     //  BMI Formula
-    let bmi = weight / (height / 100 * height / 100)
+    let bmi = weight / (height*height)
     let totalBmi = bmi.toFixed(2);
 
     // check the totalBmi for a given conditions by using if statement. 
